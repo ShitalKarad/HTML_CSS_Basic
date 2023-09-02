@@ -1,0 +1,42 @@
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.green-text {
+    color: green;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.pink-text {
+    color: pink;
+}
+/* Style for the table */
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+.form{
+    height: 150px;
+    width: 50%;
+    margin: 2px ;
+    background-color:aquamarine;
+    padding: 10px;
+}
+.input{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
