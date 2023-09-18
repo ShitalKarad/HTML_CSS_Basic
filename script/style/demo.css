@@ -1,0 +1,34 @@
+
+.parrent{
+    display: flex;
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+
+   
+}
+
+.parrent div{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+   
+}
+
+@media screen  and (max-width:1000px) {
+   
+    .parrent{
+        background-color: black;
+        display: flex;
+        flex-direction: row;   
+       
+       
+    }
+    
+}
+

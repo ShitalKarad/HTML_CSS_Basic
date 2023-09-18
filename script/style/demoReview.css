@@ -1,0 +1,35 @@
+.parent {
+
+    width: 300px;
+    height: 200px;
+   background-color: rgb(105, 43, 43);
+    position: relative;
+    margin: 100px auto;
+}
+.chied{
+    width: 200px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            position: absolute;
+            top: 10px;
+            right: 10px;
+}
+
+.btn {
+   
+   background-color: #f3f3f3;
+            color: black;
+            border: none;
+            padding: 10px;
+            position: absolute;
+            top: -16px;
+            right: -15px;
+            border-radius: 100%;
+            cursor: pointer;
+            width: 10px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            padding-right: 15px;
+
+}
